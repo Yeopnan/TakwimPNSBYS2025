@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+header {
+  background-color: #af4c72;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  gap: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+table th {
+  background-color: #4caf50;
+  color: white;
+}
+.month-header {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #4caf50;
+  text-align: center;
+}
